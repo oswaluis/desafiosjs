@@ -26,11 +26,11 @@ agregar()
 
 function agregar() {
 	let  userQuiere = prompt ("¿Cual producto quiere?").toLowerCase()
-	let cantidadUser = parseInt(prompt("¿cuantos"))
+	let cantidadUser = parseInt(prompt("¿cuantos?"))
 
 	let agregar = Productos.find((cual) => cual.nombre == userQuiere)
 
-	
+
 	agregar.cantidad = cantidadUser
 	carrito.push(agregar)
 	console.log(carrito)
@@ -43,7 +43,7 @@ carritoNew()
 
 otro()
 function otro()
-{let otroProducto = prompt (nombre +" ¿Desea agregar otro producto").toLowerCase()
+{let otroProducto = prompt (nombre +" ¿Desea agregar otro producto?").toLowerCase()
 		if (otroProducto == "si") {
 			agregar()
 			otro()
@@ -75,8 +75,10 @@ if(descuento == "si"){
 	alert("Genial, tienes un 25% de descuento")
 	descuentoCal()
 	alert("Su total es de $" + totalDef)
+	console.log("Total es de $" + totalDef)
 }else{
 	alert("Lo invitamos a inscribirse como socio")
 	alert("Gracias por su compra, su total es de $" + total)
+	console.log("Total es de $" + total)
 }
 

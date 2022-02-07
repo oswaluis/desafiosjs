@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+  <!--   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <script src="https://kit.fontawesome.com/a646675d75.js" crofile:///C:/Users/Hippies/Desktop/dise%C3%B1o_web/ProyectResponsiveBS%20-%20copia/img/banner1.pngssorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Contacto - Tienda Mora - OswaldoMendez</title>
+  </head>
+<body>
+<!-- ------------------INICIA NAV------------- -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top sticky-top" id="botonera">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="index.html"><img class="logoPrincipal borde-bordo" src="img/logoMora.png" alt="Logo"></a>
+      <button id="botonNav" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span id="iconoNav" class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle menuItem" href="colecciones.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Colecciones
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item menuItem subMenu2" href="colecciones.html">Primavera</a></li>
+              <li><a class="dropdown-item  menuItem subMenu2  " href="colecciones.html">Verano</a></li>
+              <li><a class="dropdown-item  menuItem subMenu2" href="colecciones.html">Otoño</a></li>
+              <li><a class="dropdown-item  menuItem subMenu2" href="colecciones.html">Invierno</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link   menuItem" aria-current="page" href="novedades.html">Novedades</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle  menuItem" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Productos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item  menuItem subMenu2" href="productos_remeras.html">Remeras</a></li>
+              <li><a class="dropdown-item  menuItem subMenu2" href="productos_bodys.html">Body</a></li>
+              <li><a class="dropdown-item  menuItem subMenu2" href="productos_tops.html">Tops</a></li>
+              <li><a class="dropdown-item  menuItem subMenu2" href="productos_conjuntos.html">Conjuntos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  menuItem" href="contacto.html">Contacto</a>
+          </li>
+         
+        </ul>
+        
+        <div class="iconos  fs-3 ">
+           <a href="error404.html"  class="me-2">
+            <i class="fas fa-shopping-cart carrito color1"></i></a>
+          <a href="#" class="me-2">
+            <i class="fas fa-user-circle color1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!-- ------------------TERMINA NAV------------- -->
+<!-- ------------------INICIA MAIN------------- -->
+
+<main class="main mainContacto py-3">
+    <div class="containerForm ">
+      <form action="">
+        <label for="nombre" class="labelForm" id="titleContacto">Nombre</label>
+        <input type="text" id="nombre" placeholder="Tu nombre" class="inputCon teext-1">
+        <label for="email" class="labelForm"  >Email</label>
+        <input type="email" id="email" placeholder="Tu_mail@mail.com" class="inputCon">
+        <label for="" class="labelForm teext-1">¿Quieres recibir nuestro catalogo semanal?</label>
+        <div>
+          <label for="" class="labelForm teext-1">SI</label>
+          <input type="checkbox" value="Si">
+          <label for="" class="labelForm teext-1">NO</label>
+          <input type="Checkbox" value="No">
+        </div>
+        <label for="" class="labelForm teext-1">Dejanos tu mensaje</label>
+        <textarea name="" id="" cols="30" rows="10" class="inputCon"></textarea>
+        <div>
+          <input class="btn btn-primary " type="reset" value="Cancelar">
+          <input class="btn-primary btn" type="submit" value="Enviar" id="enviar">
+        </div>
+      </form>
+      
+    </div>
+     
+    <div class="imgCorreo px-3 d-flex flex-column align-items-center">
+      <div class="fs-5 " id="mensaje"></div>
+      <div><i class="far fa-envelope"></i></div>
+
+    </div>
+
+  </main>
+
+
+
+<!-- ------------------TERMINA MAIN------------- -->
+<!-- ------------------INICIA FOOTER------------ -->
+
+<footer class="container-fluid py-2 mt-3">
+  <div class="d-flex flex-row justify-content-between">
+    <div class=" ms-4 d-flex align-items-center"> 
+      <a href=" index.html"><img class="logoFooter" src="img/logoMora.png" alt="Logo"></a>
+    </div>
+    <div class=" d-flex flex-column align-items-center justify-content-center fs-6 "> 
+      <a href="q_somos.html" class=" menuInferior" >Quienes Somos</a>
+      <a href="pFrecuentes.html" class=" menuInferior" >Preguntas Frecuentes</a>
+      <a href="cComprar.html" class=" menuInferior" >Como comprar</a>
+    </div>
+    <div class="d-flex flex-row align-items-start me-4 fs-3">
+      <a href="contacto.html" class="me-2"><i class="fas fa-envelope-square color1"></i></a>
+      <a href="https://wa.me/c/5491140567599" target="_blank" class="me-2"><i class="fab fa-whatsapp-square color1"></i></a>
+      <a href="https://instagram.com/moramoritashop?utm_medium=copy_link" target="_blank" class="me-2"><i class="fab fa-instagram-square color1 "></i></a>
+      <a href=""><i class="fab fa-telegram color1"></i></a>
+    </div>
+  </div>
+  
+
+</footer>
+
+<!-- ------------------TERMINA FOOTER------------- -->
+
+
+
+    
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+   <script src="js/app3.js"></script>
+</body>
+</html>

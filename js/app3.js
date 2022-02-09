@@ -6,8 +6,9 @@ console.log(username.innerText)
 
 
 let enviar = document.getElementById("enviar")
-	enviar.addEventListener("click", mensaje)
-	function mensaje (){
+	enviar.addEventListener("submit", mensaje)
+	function mensaje (e){
+		e.preventDefault()
 	let nombre = document.getElementById("nombre").value;
 	let email = document.getElementById("email").value;
 	let mostrar = document.getElementById("mensaje")
@@ -15,10 +16,10 @@ let enviar = document.getElementById("enviar")
 	mostrar.innerHTML = 
 
 	`
-	Gracias  ${nombre}, nos pondremos
-	en contacto
+	Gracias  ${nombre}, responderemos sus dudas a traves de ${email}
 
 	`
 
 
 	}
+

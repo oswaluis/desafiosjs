@@ -3,7 +3,11 @@
 * {
   padding: 0;
   margin: 0; }
-
+.grupoUser{
+  display: flex;
+  justify-content: center;
+  
+}
 body {
   overflow-x: hidden; }
 .producto {

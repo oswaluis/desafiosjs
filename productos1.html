@@ -57,8 +57,6 @@
         </ul>
         
         <div class="iconos  fs-3 ">
-<!--            <a href="error404.html"  class="me-2">
-            <i class="fas fa-shopping-cart carrito color1"></i></a> -->
           <a href="#" class="me-2">
             <i class="fas fa-user-circle color1"></i>
           </a>
@@ -75,39 +73,37 @@
     </button>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Carrito de Compras</h5>
-        <h5 class="ms-4"><span id="contadorCarrito">0</span></h5> 
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class=" modal-body px-2" id=contenedorModal>
-        <div id="carritoContenedor">
-<!--        <p>asdas</p>
-            <p>asdasd</p>
-            <button class="boton-eliminar"><i class="fas fa-trash"></i></button> -->
-        </div >
-      </div>
-        <p class="precioProducto ms-2 teext-1">Precio total: $<span id="precioTotal">0</span></p>
-     <div id="mensajeCompra">
-       
-       
-     </div>
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Carrito de Compras</h5>
+              <h5 class="ms-4"><span id="contadorCarrito">0</span></h5> 
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class=" modal-body px-2" id=contenedorModal>
+              <div id="carritoContenedor">
+
+              </div >
+            </div>
+              <p class="precioProducto ms-2 teext-1">Precio total: $<span id="precioTotal">0</span></p>
+           <div id="mensajeCompra">
+             
+             
+           </div>
 
 
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary" id="btnComprar">Comprar</button>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary" id="btnComprar">Comprar</button>
+            </div>
+          </div>
+        </div>
+       
       </div>
-    </div>
-  </div>
- 
-</div>
 
  <div class="py-2 d-flex justify-content-end">
-    <select class="" name="" id="seleccionTipo">
+    <select class="subMenu2 menuItem" name="" id="seleccionTipo">
       <option value="all">Todos</option>
       <option value="remera">Remeras</option>
       <option value="body">Bodys</option>
@@ -116,74 +112,11 @@
     </select>
      </div>
 
-<!--  class="container-fluid d-flex wrap mb-3 me-auto justify-content-between px-2" -->
+
 <div class="container-fluid">
 <div   class="container-fluid d-flex flex-wrap mb-3 me-auto justify-content-center px-2" id="contenedorProductos">
  
-   <!--  <div class="card me-3 mb-3" style="width: 18rem;" >
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-        <div class="card me-3 mb-3" style="width: 18rem;" >
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-        <div class="card me-3 mb-3" style="width: 18rem;" >
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-        <div class="card me-3 mb-3" style="width: 18rem;" >
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-        <div class="card me-3 mb-3" style="width: 18rem;" >
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-        <div class="card me-3 mb-3" style="width: 18rem;" >
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-        <div class="card me-3 mb-3" style="width: 18rem;" >
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-        <div class="card me-3 mb-3" style="width: 18rem;" >
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div> -->
+
 </div>   
 </div>
 </main>
@@ -219,6 +152,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
  <script src="js/productos.js"></script>
-  <script src="js/app4.js"></script> 
+  <script src="js/app5.js"></script> 
 </body>
 </html>
